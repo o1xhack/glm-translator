@@ -50,8 +50,47 @@ GLM Translator is still in the early stages of development, and I am actively ad
 
 ## Getting Started
 
-### Environment Setup
+1. ### Environment Setup
 
-1. Clone the repository.
+   1. Clone the repository.
 
-2. GLM Translator requires Python 3.10 or higher. Install the dependencies using `pip install -r requirements.txt`.
+   2. GLM Translator requires Python 3.10 or higher. Install the dependencies using `pip install -r requirements.txt`.
+
+   ### Usage
+
+   1. Place your PDF file in the `input` directory.
+   2. Run the translator using `python translate.py`.
+   3. The translated PDF will be saved in the `output` directory.
+
+   ### Command Line Options
+
+   - `--input`: Specify the input PDF file.
+   - `--output`: Specify the output directory.
+   - `--language`: Set the target translation language (default: Chinese).
+   - `--model`: Specify the model to use (default: ChatGLM).
+   - `--timeout`: Set the timeout for translation operations.
+
+   ### Configuration
+
+   You can configure GLM Translator using a YAML file. Below is an example:
+
+   ```yaml
+   input: 'input/sample.pdf'
+   output: 'output/'
+   language: 'Chinese'
+   model: 'ChatGLM'
+   timeout: 600
+   ```
+
+   ## Contributing
+
+   We welcome contributions to the GLM Translator project. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
+
+   ## License
+
+   This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+   ## Acknowledgments
+
+   - Zhipu's ChatGLM team for developing the model.
+   - The open-source community for providing the tools and libraries used in this project.
