@@ -20,6 +20,12 @@ In the current environment, there is a lack of non-commercial yet effective PDF 
 
 GLM Translator is still in the early stages of development, and I am actively adding more features and improving its performance. Any feedback or contributions are highly welcome!
 
+![OHenry Novel](images/sample_image_2.png)
+
+<p align="center">
+    <em>"OHenry Novel selected"</em>
+</p>
+
 ![The_Old_Man_of_the_Sea](images/sample_image_0.png)
 
 <p align="center">

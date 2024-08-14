@@ -19,6 +19,13 @@ GLM 翻译器是一个使用 AI 技术将英文 PDF 书籍翻译成中文的工�
 
 GLM 翻译器目前还处于早期开发阶段，我正在积极地添加更多功能和改进其性能。我们非常欢迎任何反馈或贡献！
 
+![OHenry Novel](images/sample_image_2.png)
+
+<p align="center">
+    <em>"欧亨利小说节选"</em>
+</p>
+
+
 ![The_Old_Man_of_the_Sea](images/sample_image_0.png)
 
 <p align="center">
